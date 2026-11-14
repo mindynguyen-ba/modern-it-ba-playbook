@@ -1,6 +1,6 @@
-# Modern BA Playbook — Engineering & Product Rigor Framework
+# Modern IT BA Playbook — Engineering & Product Rigor Framework
 
-> **A Systematic, End-to-End Operating System for Modern Business Analysts and Product Thinkers.**  
+> **A Systematic, End-to-End Operating System for Modern IT Business Analysts and Product Thinkers.**  
 > Grounded in the software requirements engineering principles of **Karl Wiegers** and the visual modeling & system dynamics discipline of **Joy Beatty**.
 
 ---
