@@ -59,8 +59,21 @@ flowchart TD
 | **01. The 13-Stages Framework** | [`01-the-13-stages-framework/`](01-the-13-stages-framework/README.md) | Ma trận phân tích chi tiết từng giai đoạn: *Artifacts, Naive Traps, Mental Models & Verifiable Quality Gates*. |
 | **02. Visual Modeling Mastery** | [`02-visual-modeling-mastery/`](02-visual-modeling-mastery/README.md) | Chuẩn BPMN 2.0 Collaboration (Pool/Lane, Event-based Gateways), Finite State Machines (FSM), Sequence Diagrams. |
 | **03. Technical Fluency** | [`03-technical-fluency/`](03-technical-fluency/README.md) | Chuẩn kỹ thuật thực chiến: API Contract, Idempotency, Chuẩn hóa DB 3NF, SQL Invariants kiểm chứng dữ liệu. |
-| **04. Product & AI Readiness** | [`04-product-and-ai-readiness/`](04-product-and-ai-readiness/README.md) | Tư duy sản phẩm, Metric Trees, Khung thẩm định bài toán AI/LLM vs Logic truyền thống, Template đánh giá Readiness. |
+| **04. Product & AI Readiness** | [`04-product-and-ai-readiness/`](04-product-and-ai-readiness/README.md) | Market Intelligence & Anti-WAF Ingestion, Metric Trees, Khung thẩm định AI/LLM vs Logic truyền thống. |
 | **05. Templates & Checklists** | [`05-templates-and-checklists/`](05-templates-and-checklists/) | Biểu mẫu thực hành: Ambiguity Inspection Checklist, Decision Table Template, Architecture Decision Record (ADR). |
+
+---
+
+## 🛠️ Visual Modeling & AI-Augmented Toolchain
+
+Toàn bộ hệ thống sơ đồ kỹ thuật trong repository này (BPMN 2.0 Collaboration, Finite State Machines, Sequence Diagrams, DFD Level 1) được mô hình hóa theo quy chuẩn **Joy Beatty (Visual Models for Software Requirements)** và được thực thi trực quan lên Figma thông qua:
+
+* **Engine**: [Reqwise Figma MCP](https://github.com/hoangpm96/reqwise-figma-mcp) (Tác giả: Hoang Phan).
+* **Architecture**: Model Context Protocol (MCP) Server kết nối trực tiếp Figma Desktop qua WebSocket Bridge.
+* **Quality Gates**:
+  1. *Model Dry-run*: Kiểm tra tính toàn vẹn của node, edge và boundary trước khi vẽ.
+  2. *Layout Audit*: Tự động rà soát va chạm (collision), đường chéo cắt nhau, và padding theo chuẩn lưới 8px.
+  3. *Semantic Check*: Đảm bảo phân định tuyệt đối giữa Sequence Flow (nội bộ Pool) và Message Flow (liên hệ thống).
 
 ---
 

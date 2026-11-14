@@ -18,3 +18,9 @@
 1. **Ranh giới hệ thống là bất khả xâm phạm:** Không có mũi tên điều khiển (Sequence Flow) nào được phép bắn xuyên qua ranh giới của hai hệ thống độc lập. Mọi giao tiếp liên hệ thống bắt buộc phải là luồng tin nhắn (Message Flow).
 2. **Không có trạng thái generic mập mờ:** Loại bỏ hoàn toàn các trạng thái kiểu `Failed` hay `Processing`. Trạng thái phải phản ánh chính xác trách nhiệm của thực thể (`PAYMENT_PENDING`, `ACTIVATION_FAILED`, `ACCESS_RESTRICTED`).
 3. **Bịt kín các nhánh ngoại lệ:** Mọi cổng rẽ nhánh (Gateway) đều phải có đường thoát; mọi lời gọi bất đồng bộ đều phải có cơ chế Timeout hoặc Fallback.
+
+---
+
+## 🛠️ Tooling & Execution Engine
+
+Toàn bộ sơ đồ trong chuyên mục này được hỗ trợ thực thi và kiểm định hình học trực tiếp lên Figma canvas thông qua [Reqwise Figma MCP](https://github.com/hoangpm96/reqwise-figma-mcp) (Tác giả: Hoang Phan), kết hợp cổng kiểm tra tự động `Model Dry-run` và `Layout Audit` trước khi bàn giao cho Engineering.
