@@ -60,7 +60,7 @@ flowchart TD
 | **02. Visual Modeling Mastery** | [`02-visual-modeling-mastery/`](02-visual-modeling-mastery/README.md) | Chuẩn BPMN 2.0 Collaboration (Pool/Lane, Event-based Gateways), Finite State Machines (FSM), Sequence Diagrams. |
 | **03. Technical Fluency** | [`03-technical-fluency/`](03-technical-fluency/README.md) | Chuẩn kỹ thuật thực chiến: API Contract, Idempotency, Chuẩn hóa DB 3NF, SQL Invariants kiểm chứng dữ liệu. |
 | **04. Product & AI Readiness** | [`04-product-and-ai-readiness/`](04-product-and-ai-readiness/README.md) | Market Intelligence & Anti-WAF Ingestion, Metric Trees, Khung thẩm định AI/LLM vs Logic truyền thống. |
-| **05. Templates & Checklists** | [`05-templates-and-checklists/`](05-templates-and-checklists/) | Biểu mẫu thực hành: Ambiguity Inspection Checklist, Decision Table Template, Architecture Decision Record (ADR). |
+| **05. Templates & Checklists** | [`05-templates-and-checklists/`](05-templates-and-checklists/) | Biểu mẫu thực hành: Two-Tier User Story & AC Template, Ambiguity Inspection Checklist, Decision Table Template, Architecture Decision Record (ADR). |
 
 ---
 
